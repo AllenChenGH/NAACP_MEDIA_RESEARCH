@@ -1,5 +1,6 @@
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 import pandas as pd
+import time
 
 data = [pd.read_csv('classified data/bostonglobe2014.csv'),
         pd.read_csv('classified data/bostonglobe2015.csv'),
@@ -23,6 +24,7 @@ print(analyzer.polarity_scores(data[0]['text'][0]))
 result = []
 for i in range(len(data)):
     print(i)
+    print(time.asctime(time.localtime(time.time())))
     pos = 0
     neu = 0
     neg = 0

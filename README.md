@@ -22,7 +22,7 @@ Look for popular topics: make sure you've already generated (by run [combine.py]
 ](https://github.com/AllenChenGH/NAACP_MEDIA_RESEARCH/blob/master/5topics_black.txt) and [5topics_all.txt
 ](https://github.com/AllenChenGH/NAACP_MEDIA_RESEARCH/blob/master/5topics_all.txt), The results are also stored in [statistics_final.xlsx](https://github.com/AllenChenGH/NAACP_MEDIA_RESEARCH/blob/master/statistics_final.xlsx) sheet two.
 
-To run all codes, please make sure to follow our project structure, or yhou can change the target directory in our codes into your own valid path.
+To run all codes, please make sure to follow our project structure, or you can change all target directories in our codes into your own valid path.
 
 ## FOR NON-TECHNICAL AUDIANCE
 

@@ -8,7 +8,7 @@ Jiaqi Sun, sjq@bu.edu
 
 Ruotian Liu, rtliu@bu.edu
 
-__________HOW TO RUN OUR CODE:
+----------HOW TO RUN OUR CODE:
 
 Collect data: run [get_links.py](https://github.com/AllenChenGH/NAACP_MEDIA_RESEARCH/blob/master/get_links.py) first to get 3 txt files of website links, then run Scarapy... This process will take a long time and we splitted these 3 txts into more small sub files when we did this step. We suggest you download [raw data](https://github.com/AllenChenGH/NAACP_MEDIA_RESEARCH/tree/master/raw%20data) to see what we've collected.
 

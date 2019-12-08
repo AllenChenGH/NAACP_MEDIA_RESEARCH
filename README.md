@@ -1,3 +1,13 @@
 # NAACP_MEDIA_RESEARCH
 
-cs506 Spark! project
+CS506 Spark! project
+
+Collect data: run Scrapy
+
+Filter news about black people:
+
+Calculate coverage:
+
+Sentiment analysis:
+
+Look for popular topics:

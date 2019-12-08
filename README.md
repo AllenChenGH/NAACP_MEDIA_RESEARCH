@@ -26,4 +26,4 @@ To run all codes, please make sure to follow our project structure, or you can c
 
 ## FOR NON-TECHNICAL AUDIANCE
 
-If you are non-technical audiance who just want to see what we've achieved, please have a look [here](https://github.com/AllenChenGH/NAACP_MEDIA_RESEARCH/tree/master/Report%26Poster) at our project report and poster. This should give you an basic idea of what we've done.
+If you are non-technical audiance who just want to see what we've achieved, please have a look at our [project report and poster](https://github.com/AllenChenGH/NAACP_MEDIA_RESEARCH/tree/master/Report%26Poster). This should give you an basic idea of what we've done.

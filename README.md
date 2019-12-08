@@ -39,4 +39,4 @@ Make sure you've already generated (by run [combine.py](https://github.com/Allen
 
 ## FOR NON-TECHNICAL AUDIANCE
 
-If you are non-technical audiance who just want to see what we've achieved, please have a look at our [project report and poster](https://github.com/AllenChenGH/NAACP_MEDIA_RESEARCH/tree/master/Report%26Poster). This should give you an basic idea of what we've done.
+If you are non-technical audiance who just want to see what we've achieved, please have a look at our project [report](https://github.com/AllenChenGH/NAACP_MEDIA_RESEARCH/blob/master/Report%26Poster/NAACP%20Final%20Report.pdf) and [poster](https://github.com/AllenChenGH/NAACP_MEDIA_RESEARCH/blob/master/Report%26Poster/NAACP%20Poster.pdf). This should give you an basic idea of what we've done.

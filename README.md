@@ -2,7 +2,7 @@
 
 CS506 Spark! project
 
-Collect data: run Scrapy
+Collect data: run [get_links.py](https://github.com/AllenChenGH/NAACP_MEDIA_RESEARCH/blob/master/get_links.py) first to get 3 txt files of website links, then...
 
 Filter news about black people: make sure you've already generated (by run [combine.py](https://github.com/AllenChenGH/NAACP_MEDIA_RESEARCH/blob/master/combine.py) on [raw data](https://github.com/AllenChenGH/NAACP_MEDIA_RESEARCH/tree/master/raw%20data) or downloaded [classified data](https://github.com/AllenChenGH/NAACP_MEDIA_RESEARCH/tree/master/classified%20data), then run [keywords_filter_black.py](https://github.com/AllenChenGH/NAACP_MEDIA_RESEARCH/blob/master/keywords_filter_black.py). The results should be generated in [relevent data](https://github.com/AllenChenGH/NAACP_MEDIA_RESEARCH/tree/master/relevant%20data) folder.
 

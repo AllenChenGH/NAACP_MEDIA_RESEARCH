@@ -1,6 +1,8 @@
 # NAACP_MEDIA_RESEARCH
 
-# Yufeng Chen, Jiaqi Sun and Ruotian Liu
+Yufeng Chen, yufeng72@bu.edu
+Jiaqi Sun, sjq@bu.edu
+Ruotian Liu, rtliu@bu.edu
 
 CS506 Spark! project
 

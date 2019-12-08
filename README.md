@@ -1,10 +1,14 @@
 # NAACP_MEDIA_RESEARCH
 
+CS506 Spark! project
+
 Yufeng Chen, yufeng72@bu.edu
+
 Jiaqi Sun, sjq@bu.edu
+
 Ruotian Liu, rtliu@bu.edu
 
-CS506 Spark! project
+
 
 Collect data: run [get_links.py](https://github.com/AllenChenGH/NAACP_MEDIA_RESEARCH/blob/master/get_links.py) first to get 3 txt files of website links, then run Scarapy... This process will take a long time and we splitted these 3 txts into more small sub files when we did this step. We suggest you download [raw data](https://github.com/AllenChenGH/NAACP_MEDIA_RESEARCH/tree/master/raw%20data) to see what we've collected.
 

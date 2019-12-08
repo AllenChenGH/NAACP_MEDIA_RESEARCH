@@ -10,6 +10,8 @@ Ruotian Liu, rtliu@bu.edu
 
 ## SOME INSTRUCTIONS ON HOW TO RUN OUR CODE:
 
+To run all codes, please install all tools and packages we used using pip, and make sure to follow our project structure (or you can change all target directories in our codes into your own valid path).
+
 ### Collect data
 run [get_links.py](https://github.com/AllenChenGH/NAACP_MEDIA_RESEARCH/blob/master/get_links.py) first to get 3 txt files ([bostonglobe.txt](https://github.com/AllenChenGH/NAACP_MEDIA_RESEARCH/blob/master/bostonglobe.txt), [wbur.txt](https://github.com/AllenChenGH/NAACP_MEDIA_RESEARCH/blob/master/wbur.txt) and [wgbh.txt](https://github.com/AllenChenGH/NAACP_MEDIA_RESEARCH/blob/master/wgbh.txt)) for 3 websites. Our Scrapy spider is [globespider.py](https://github.com/AllenChenGH/NAACP_MEDIA_RESEARCH/blob/master/globe/globe/spiders/globeSpider.py). To run Scrapy for data collecting, you should open terminal, locate the [spiders](https://github.com/AllenChenGH/NAACP_MEDIA_RESEARCH/tree/master/globe/globe/spiders) folder and run:
 
@@ -34,8 +36,6 @@ make sure you've already generated (by run [combine.py](https://github.com/Allen
 make sure you've already generated (by run [combine.py](https://github.com/AllenChenGH/NAACP_MEDIA_RESEARCH/blob/master/combine.py) on [raw data](https://github.com/AllenChenGH/NAACP_MEDIA_RESEARCH/tree/master/raw%20data)) or downloaded [classified data](https://github.com/AllenChenGH/NAACP_MEDIA_RESEARCH/tree/master/classified%20data), then run [get_topics.py](https://github.com/AllenChenGH/NAACP_MEDIA_RESEARCH/blob/master/get_topics.py) to get popular topics and see visulization results like [topic_crime_black.png](https://github.com/AllenChenGH/NAACP_MEDIA_RESEARCH/blob/master/topic_crime_black.png) and [topic_crime_all.png](https://github.com/AllenChenGH/NAACP_MEDIA_RESEARCH/blob/master/topic_crime_all.png). you can change code to get all popular topics for the past five years. The results are stored in [5topics_black.txt
 ](https://github.com/AllenChenGH/NAACP_MEDIA_RESEARCH/blob/master/5topics_black.txt) and [5topics_all.txt
 ](https://github.com/AllenChenGH/NAACP_MEDIA_RESEARCH/blob/master/5topics_all.txt), The results are also stored in [statistics_final.xlsx](https://github.com/AllenChenGH/NAACP_MEDIA_RESEARCH/blob/master/statistics_final.xlsx) sheet two.
-
-To run all codes, please install all tools and packages we used using pip, and make sure to follow our project structure (or you can change all target directories in our codes into your own valid path).
 
 ## FOR NON-TECHNICAL AUDIANCE
 

@@ -57,8 +57,8 @@ if __name__ == '__main__':
     # get_topics('classified data//bostonglobe2017.csv', '5topics_all.txt')
     # get_topics('classified data//bostonglobe2018.csv', '5topics_all.txt')
 
-    get_topics('classified data//bostonglobe2014.csv', '5topics_black.txt')
-    # get_topics('classified data//bostonglobe2015.csv', '5topics_black.txt')
-    # get_topics('classified data//bostonglobe2016.csv', '5topics_black.txt')
-    # get_topics('classified data//bostonglobe2017.csv', '5topics_black.txt')
-    # get_topics('classified data//bostonglobe2018.csv', '5topics_black.txt')
+    get_topics('relevant data//bostonglobe2014.csv', '5topics_black.txt')
+    # get_topics('relevant data//bostonglobe2015.csv', '5topics_black.txt')
+    # get_topics('relevant data//bostonglobe2016.csv', '5topics_black.txt')
+    # get_topics('relevant data//bostonglobe2017.csv', '5topics_black.txt')
+    # get_topics('relevant data//bostonglobe2018.csv', '5topics_black.txt')

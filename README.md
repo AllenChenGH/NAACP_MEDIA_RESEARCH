@@ -10,7 +10,7 @@ Ruotian Liu, rtliu@bu.edu
 
 ## SOME INSTRUCTIONS ON HOW TO RUN OUR CODE:
 
-To run all codes, please install all tools and packages we used using pip, and make sure to follow our project structure (or you can change all target directories in our codes into your own valid path).
+PS: to successfully run our codes, please install all tools and packages we used using pip, and make sure to follow our project structure (or you can change all target directories in our codes into your own valid path).
 
 ### Collect data
 run [get_links.py](https://github.com/AllenChenGH/NAACP_MEDIA_RESEARCH/blob/master/get_links.py) first to get 3 txt files ([bostonglobe.txt](https://github.com/AllenChenGH/NAACP_MEDIA_RESEARCH/blob/master/bostonglobe.txt), [wbur.txt](https://github.com/AllenChenGH/NAACP_MEDIA_RESEARCH/blob/master/wbur.txt) and [wgbh.txt](https://github.com/AllenChenGH/NAACP_MEDIA_RESEARCH/blob/master/wgbh.txt)) for 3 websites. Our Scrapy spider is [globespider.py](https://github.com/AllenChenGH/NAACP_MEDIA_RESEARCH/blob/master/globe/globe/spiders/globeSpider.py). To run Scrapy for data collecting, you should open terminal, locate the [spiders](https://github.com/AllenChenGH/NAACP_MEDIA_RESEARCH/tree/master/globe/globe/spiders) folder and run:

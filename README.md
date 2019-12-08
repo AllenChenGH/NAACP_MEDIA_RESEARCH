@@ -19,7 +19,7 @@ Run [get_links.py](https://github.com/AllenChenGH/NAACP_MEDIA_RESEARCH/blob/mast
 scrapy runspider globeSpider.py -o resultname.json
 ```
 
-You need to change the filename in [line 11](https://github.com/AllenChenGH/NAACP_MEDIA_RESEARCH/blob/master/globe/globe/spiders/globeSpider.py#L11) in our code to get all three websites' results. For more instructions on hwo to use Scrapy, you can check [A primer on web scraping and the Wayback machine by John C. Merfeld](https://github.com/johncmerfeld/wayback). We really thank John for his excellent work, and it really helped us a lot.
+You need to change the filename in [line 11](https://github.com/AllenChenGH/NAACP_MEDIA_RESEARCH/blob/master/globe/globe/spiders/globeSpider.py#L11) and use different xpath filter ([line 29](https://github.com/AllenChenGH/NAACP_MEDIA_RESEARCH/blob/master/globe/globe/spiders/globeSpider.py#L29) for Boston Globe, [line 30](https://github.com/AllenChenGH/NAACP_MEDIA_RESEARCH/blob/master/globe/globe/spiders/globeSpider.py#L30) for WGBH and WBUR) in our code to get all three websites' results. For more instructions on hwo to use Scrapy, you can check [A primer on web scraping and the Wayback machine by John C. Merfeld](https://github.com/johncmerfeld/wayback). We really thank John for his excellent work, and it really helped us a lot.
 
 
 The whole data collecting process will take a long time, days, or even weeks if there are other server problems, so we splitted these 3 txts into more small sub files when we did this step. We stored our data in [raw data](https://github.com/AllenChenGH/NAACP_MEDIA_RESEARCH/tree/master/raw%20data) folder, and suggest you simply download it to see what we've collected.

@@ -16,7 +16,7 @@ Collect data: run [get_links.py](https://github.com/AllenChenGH/NAACP_MEDIA_RESE
 scrapy runspider globeSpider.py -o resultname.json
 ```
 
-you need to change the filename in [line 11](https://github.com/AllenChenGH/NAACP_MEDIA_RESEARCH/blob/master/globe/globe/spiders/globeSpider.py) in our code to get all three websites' results. For more instructions on Scrapy, you can check John's [A primer on web scraping and the Wayback machine by John C. Merfeld](https://github.com/johncmerfeld/wayback).
+you need to change the filename in [line 11](https://github.com/AllenChenGH/NAACP_MEDIA_RESEARCH/blob/master/globe/globe/spiders/globeSpider.py) in our code to get all three websites' results. For more instructions on Scrapy, you can check John's [A primer on web scraping and the Wayback machine by John C. Merfeld](https://github.com/johncmerfeld/wayback). We really thank him for his excellent work, and it really helped a lot.
 
 
 This process will take a long time and we splitted these 3 txts into more small sub files when we did this step. We stored our data in [raw data](https://github.com/AllenChenGH/NAACP_MEDIA_RESEARCH/tree/master/raw%20data), and suggest you simply download it to see what we've collected.

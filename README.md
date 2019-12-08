@@ -10,7 +10,13 @@ Ruotian Liu, rtliu@bu.edu
 
 ## SOME INSTRUCTIONS ON HOW TO RUN OUR CODE:
 
-Collect data: run [get_links.py](https://github.com/AllenChenGH/NAACP_MEDIA_RESEARCH/blob/master/get_links.py) first to get 3 txt files ([bostonglobe.txt](https://github.com/AllenChenGH/NAACP_MEDIA_RESEARCH/blob/master/bostonglobe.txt), [wbur.txt](https://github.com/AllenChenGH/NAACP_MEDIA_RESEARCH/blob/master/wbur.txt) and [wgbh.txt](https://github.com/AllenChenGH/NAACP_MEDIA_RESEARCH/blob/master/wgbh.txt)) of 3 websites, then run Scrapy. Our Scrapy spider is [http://globespider.py/](https://github.com/AllenChenGH/NAACP_MEDIA_RESEARCH/blob/master/globe/globe/spiders/globeSpider.py). To run this, you should open the terminal, locate the [spiders](https://github.com/AllenChenGH/NAACP_MEDIA_RESEARCH/tree/master/globe/globe/spiders) folder and enter command: scrapy runspider globeSpider.py -o resultname.json. you need to change the filename in [line 11](https://github.com/AllenChenGH/NAACP_MEDIA_RESEARCH/blob/master/globe/globe/spiders/globeSpider.py) of the spider file to get all three websites' results.
+Collect data: run [get_links.py](https://github.com/AllenChenGH/NAACP_MEDIA_RESEARCH/blob/master/get_links.py) first to get 3 txt files ([bostonglobe.txt](https://github.com/AllenChenGH/NAACP_MEDIA_RESEARCH/blob/master/bostonglobe.txt), [wbur.txt](https://github.com/AllenChenGH/NAACP_MEDIA_RESEARCH/blob/master/wbur.txt) and [wgbh.txt](https://github.com/AllenChenGH/NAACP_MEDIA_RESEARCH/blob/master/wgbh.txt)) for 3 websites. Our Scrapy spider is [http://globespider.py/](https://github.com/AllenChenGH/NAACP_MEDIA_RESEARCH/blob/master/globe/globe/spiders/globeSpider.py). To run Scrapy to collect data, you should open terminal, locate the [spiders](https://github.com/AllenChenGH/NAACP_MEDIA_RESEARCH/tree/master/globe/globe/spiders) folder and run:
+
+```
+scrapy runspider globeSpider.py -o resultname.json
+```
+
+you need to change the filename in [line 11](https://github.com/AllenChenGH/NAACP_MEDIA_RESEARCH/blob/master/globe/globe/spiders/globeSpider.py) of the spider file to get all three websites' results.
 
 
 This process will take a long time and we splitted these 3 txts into more small sub files when we did this step. We stored our data in [raw data](https://github.com/AllenChenGH/NAACP_MEDIA_RESEARCH/tree/master/raw%20data), and suggest you simply download it to see what we've collected.

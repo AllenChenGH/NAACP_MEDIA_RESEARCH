@@ -8,7 +8,7 @@ Jiaqi Sun, sjq@bu.edu
 
 Ruotian Liu, rtliu@bu.edu
 
-----------SOME INSTRUCTIONS ON HOW TO RUN OUR CODE:
+------------------------- SOME INSTRUCTIONS ON HOW TO RUN OUR CODE:
 
 Collect data: run [get_links.py](https://github.com/AllenChenGH/NAACP_MEDIA_RESEARCH/blob/master/get_links.py) first to get 3 txt files ([bostonglobe.txt](https://github.com/AllenChenGH/NAACP_MEDIA_RESEARCH/blob/master/bostonglobe.txt), [wbur.txt](https://github.com/AllenChenGH/NAACP_MEDIA_RESEARCH/blob/master/wbur.txt) and [wgbh.txt](https://github.com/AllenChenGH/NAACP_MEDIA_RESEARCH/blob/master/wgbh.txt)) of 3 websites, then run Scrapy..................... This process will take a long time and we splitted these 3 txts into more small sub files when we did this step. We stored our data in [raw data](https://github.com/AllenChenGH/NAACP_MEDIA_RESEARCH/tree/master/raw%20data), and suggest you simply download it to see what we've collected.
 
@@ -23,3 +23,5 @@ Look for popular topics: make sure you've already generated (by run [combine.py]
 ](https://github.com/AllenChenGH/NAACP_MEDIA_RESEARCH/blob/master/5topics_all.txt), The results are also stored in [statistics_final.xlsx](https://github.com/AllenChenGH/NAACP_MEDIA_RESEARCH/blob/master/statistics_final.xlsx) sheet two.
 
 To run all codes, please make sure to follow our project structure, or yhou can change the target directory in our codes into your own valid path.
+
+If you are non-technical audiance who just want to see what we've achieved, please have a look [here](https://github.com/AllenChenGH/NAACP_MEDIA_RESEARCH/tree/master/Report%26Poster) at our project report and poster. This should give you an basic idea of what we've done.
